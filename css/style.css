@@ -184,6 +184,49 @@ color: #777777;
 
 } 
 /********* Challenges Section Css End  *********/
+/********* Rentspaze Solving Section Css Start  *********/
+.solv-sec h2{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 100px;
+color: #E3002C;
+
+}
+.solv-sec h5{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-transform: uppercase;
+color: #E3002C;
+margin-bottom: 0px;
+}
+.solv-sec h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 39px;
+color: #222222;
+}
+.solv-sec ul li{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #777777;
+
+}
+/********* Rentspaze Solving Section Css End  *********/
 
 
 
