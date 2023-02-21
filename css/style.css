@@ -589,6 +589,7 @@ color: #E3002C;
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
   border-radius: 10px;
+  width: 100%;
 }
 
 .form-control:focus {
@@ -657,7 +658,76 @@ color: #E3002C;
 
 /* =========== contact section css end ====== */
 
+/* ***** Mobile Responsive Media Qurries Css Start ********* */
 
+@media screen and (max-width: 767px) {
+  .hero-sec h2{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .hero-sec h1{
+    font-size: 40px;
+  }
+  .hero-sec p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .chalng-sec h2{
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .solv-sec h2{
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 30px;
+  }
+  .download-sec h2{
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .download-sec h3{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .download-sec p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .function-sec h2{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .feat-sec h2{
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .about-sec h2{
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .about-sec p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .passsion-sec h2{
+    font-size: 35px;
+    line-height: 55px;
+ }
+ .passsion-sec p{
+  font-size: 19px;
+    line-height: 35px;
+ }
+ .cntc-head{
+  
+  font-size: 35px;
+  line-height: 55px;
+
+ }
+ .cstm-radio-label{
+  padding: 15px 30px;
+ }
+}
+/* ***** Mobile Responsive Media Qurries Css Start ********* */
 
 
 
