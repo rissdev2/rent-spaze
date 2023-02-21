@@ -729,6 +729,104 @@ color: #E3002C;
 }
 /* ***** Mobile Responsive Media Qurries Css Start ********* */
 
+/************ Tab Responsive media querry Start  ***********/
+@media (min-device-width: 768px) and (max-device-width: 1080px) {
+  .hero-sec h2{
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .hero-sec h1{
+    font-size: 35px;
+  }
+  .hero-sec p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .slider-sec h2{
+    font-size: 20px;
+    line-height: 25px;
+
+  }
+  .slider-sec p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .chalng-sec h2{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .solv-sec h2{
+    font-size: 35px;
+    line-height: 43px;
+  }
+  .solv-sec h3{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .download-sec h2{
+    font-size: 35px;
+    line-height: 60px;
+  }
+  .download-sec h3{
+    font-size: 18px;
+    line-height: 28px;
+
+  }
+  .download-sec p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .function-sec h3{
+    font-size: 20px;
+    line-height: 25px;
+
+  }
+  .function-sec p{
+    line-height: 23px;
+  }
+  .function-sec h2{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .feat-sec h2{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .feat-card h3{
+    font-size: 16px;
+    line-height: 25px;
+
+  }
+  .feat-card p{
+    line-height: 25px;
+
+  }
+  .adv-card p{
+    line-height: 25px;
+  }
+  .work-sec p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .about-sec h2{
+    font-size: 45px;
+    line-height: 45px;
+
+  }
+  .about-sec p{
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .passsion-sec h2{
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .passsion-sec p{
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+/************ Tab Responsive media querry End  ***********/
 
 
 
@@ -739,6 +837,16 @@ color: #E3002C;
 
 
   /* Container media querry Start  */
+  @media (min-width: 1500px){
+    .container{
+      max-width: 1450px;
+    }
+      }
+  @media (min-width: 1700px){
+.container{
+  max-width: 1650px;
+}
+  }
 @media (min-width: 1800px) {
     .container {
       max-width: 1750px;
