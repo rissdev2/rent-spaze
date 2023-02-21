@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -227,7 +227,435 @@ color: #777777;
 
 }
 /********* Rentspaze Solving Section Css End  *********/
+/********* Downlolad App Section Css Start  *********/
+.download-sec h2{ 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 100px;
+/* identical to box height, or 179% */
+text-align: center;
+color: #E3002C;
+}
+.download-sec h3{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+color: #222222;
+}
+.download-sec p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 40px;
+text-align: center;
+color: #777777;
+}
 
+
+/********* Downlolad App Section Css End  *********/
+/********* Functinality Section Css Start  *********/
+.function-sec h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 100px;
+color: #E3002C;
+}
+.function-sec h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+color: #222222;
+margin-bottom: 0px;
+}
+.function-sec p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #777777;
+}
+/********* Functinality Section Css End  *********/
+/********* Features Section Css Start*********/
+.feat-sec h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 100px;
+/* identical to box height, or 179% */
+color: #E3002C;
+}
+.feat-card{
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+}
+.feat-card h3{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 34px;
+/* identical to box height, or 189% */
+
+
+color: #222222;
+}
+.feat-card p{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #777777;
+
+}
+/********* Features Section Css End  *********/
+/********* Advantages Section Css Start  *********/
+.advantage-sec h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 100px;
+/* identical to box height, or 179% */
+
+
+color: #E3002C;
+
+}
+.adv-card{
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.adv-card h3{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+/* identical to box height, or 100% */
+color: #D9D9D9;
+margin-top: -60px;
+text-align: left;
+margin-bottom: 0px;
+}
+.adv-card p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 40px;
+/* identical to box height, or 250% */
+text-align: center;
+color: #222222;
+
+}
+/********* Advantages Section Css End  *********/
+/********* How it Works Section Css Start  *********/
+.hide {
+  display: none;
+}
+.work-sec h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 100px;
+text-align: center;
+color: #E3002C;
+}
+.work-sec h1{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 39px;
+text-align: center;
+color: #777777;
+cursor: pointer;
+}
+.work-sec h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 40px;
+/* identical to box height, or 182% */
+color: #222222;
+}
+.work-sec p{
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 40px;
+/* or 222% */
+
+
+color: #777777;
+margin-bottom: 0px;
+}
+.work-sec h4{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 110px;
+line-height: 110px;
+/* identical to box height, or 100% */
+
+
+color: #D9D9D9;
+}
+.work-sec h5{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #222222;
+margin-bottom: 0px;
+}
+.step p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+color: #777777;
+}
+.active{
+  color: #222222 !important;
+}
+/********* How it Works Section Css End  *********/
+/********* About Section Css Start  *********/
+.about-sec h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 100px;
+color: #E3002C;
+}
+.about-sec p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 40px;
+/* or 222% */
+
+text-align: center;
+
+color: #777777;
+
+}
+/********* About Section Css End  *********/
+/********* People Passionate Section Css Start  *********/
+.passsion-sec h2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 100px;
+color: #E3002C;
+}
+.passsion-sec p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 48px;
+/* or 218% */
+
+
+color: #777777;
+
+}
+.team-sec{
+  box-shadow: 0px 40px 70px rgba(0, 0, 0, 0.08);
+border-radius: 20px;
+}
+.team-sec h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #222222;
+}
+.team-sec h3 span{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #E3002C;
+
+}
+/********* People Passionate Section Css End  *********/
+
+
+/* =========== contact section css start ====== */
+
+
+.cntc-head {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  color: #E3002C;
+}
+
+.rch-out-txt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: #222222;
+}
+
+.cntct-txt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #222222;
+  margin-bottom: 0;
+
+}
+
+
+
+.form-label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #222222;
+  padding-left: 20px;
+
+}
+
+
+.form-control {
+  line-height: 163.5%;
+  color: rgba(0, 0, 0, 0.57);
+  padding: 15px 20px;
+  font-size: 14px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 130px;
+}
+
+.text-area {
+  line-height: 163.5%;
+  color: rgba(0, 0, 0, 0.57);
+  padding: 15px 20px;
+  font-size: 14px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  background: #FFFFFF;
+  box-shadow: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  border: 1px solid #D9D9D9;
+  color: rgba(0, 0, 0, 0.57);
+}
+
+.form-control::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #777777;
+
+  text-transform: capitalize;
+}
+
+
+.cstm-radio-label {
+  width: 50%;
+  line-height: 163.5%;
+  color: rgba(0, 0, 0, 0.57);
+  padding: 15px 70px;
+  font-size: 14px;
+  margin-right: 10px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 130px;
+}
+
+.rd-input {
+  appearance: none;
+}
+
+.rd-input:checked+label {
+  background: #E3002C;
+  color: #fff;
+}
+
+.snd-btn {
+
+  border: 1px solid #222222;
+  border-radius: 100px;
+}
+
+.snd-btn-txt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #222222;
+}
+
+/* =========== contact section css end ====== */
 
 
 
