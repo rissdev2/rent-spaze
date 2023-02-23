@@ -1,544 +1,509 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  html,
-  body {
-    max-width: 100vw;
-    overflow-x: hidden;
-  }
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  a:hover {
-    color: inherit;
-    text-decoration: none;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  /************ Navbar Css Start  *************/
-  .navbar-nav .nav-link{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-padding: 0px 20px !important;
-/* identical to box height */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
 
+/************ Navbar Css Start  *************/
+.navbar-nav .nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 0px 20px !important;
+  /* identical to box height */
 
-color: #777777;
-  }
-  .navbar-nav .nav-link:hover{
-    color: #000000 !important;
-  }
-  .navbar-light .navbar-nav .nav-link.active{
-    color: #000000 !important;
-  }
-  .nav-btn1 {
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
+  color: #777777;
+}
+.navbar-nav .nav-link:hover {
+  color: #000000 !important;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #000000 !important;
+}
+.nav-btn1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
 
-text-align: center;
-padding: 10px 20px;
-color: #222222;
-border: 1px solid #222222;
-border-radius: 100px;
-  }
-  .nav-btn2 {
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
+  text-align: center;
+  padding: 10px 20px;
+  color: #222222;
+  border: 1px solid #222222;
+  border-radius: 100px;
+}
+.nav-btn2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
 
-text-align: center;
-padding: 10px 40px;
-color: #222222;
-border: 1px solid #222222;
-border-radius: 100px;
-  }
-  .nav-btn2 i{
-    font-size: 25px;
-  }
-  /************ Navbar Css End  *************/
-
+  text-align: center;
+  padding: 10px 40px;
+  color: #222222;
+  border: 1px solid #222222;
+  border-radius: 100px;
+}
+.nav-btn2 i {
+  font-size: 25px;
+}
+/************ Navbar Css End  *************/
 
 /********* Hero Section Css Start  *********/
-.hero-sec h2{
-  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 70px;
-color: #222222;
+.hero-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 70px;
+  color: #222222;
 }
-.hero-sec h1{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 66px;
-color: #E3002C;
+.hero-sec h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 66px;
+  color: #e3002c;
 }
-.hero-sec h3{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 70px;
-/* identical to box height */
+.hero-sec h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  /* identical to box height */
 
-
-color: #E3002C;
-
+  color: #e3002c;
 }
-.hero-sec p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 40px;
-color: #777777;
+.hero-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: #777777;
 }
 /********* Hero Section Css End  *********/
 /********* Sliders Section Css Start  *********/
-.slider-sec h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 60px;
-color: #E3002C;
+.slider-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 60px;
+  color: #e3002c;
 }
-.slider-sec p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 40px;
-color: #777777;
+.slider-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 40px;
+  color: #777777;
 }
 .swiper {
   width: 100%;
   height: 100%;
 }
-.swiper-slide{
+.swiper-slide {
   box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15) !important;
   background-color: #ffffffff;
   border-radius: 10px;
 }
 .swiper-slide p {
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-/* identical to box height, or 200% */
-text-align: center;
-color: #000000;
-
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  color: #000000;
 }
-
 
 /********* Sliders Section Css End  *********/
 /********* Challenges Section Css Start  *********/
-.chalng-sec h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-color: #E3002C;
+.chalng-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  color: #e3002c;
 }
-.chalng-sec .swiper-slide h3{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-text-align: center;
+.chalng-sec .swiper-slide h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
 
-color: #222222;
-margin-top: 30px;
+  color: #222222;
+  margin-top: 30px;
 }
-.chalng-sec .swiper-slide p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 36px;
-/* or 225% */
+.chalng-sec .swiper-slide p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  /* or 225% */
 
-text-align: center;
+  text-align: center;
 
-color: #777777;
-
-} 
+  color: #777777;
+}
 /********* Challenges Section Css End  *********/
 /********* Rentspaze Solving Section Css Start  *********/
-.solv-sec h2{
-  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 46px;
-line-height: 100px;
-color: #E3002C;
-
+.solv-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 100px;
+  color: #e3002c;
 }
-.solv-sec h5{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-text-align: center;
-text-transform: uppercase;
-color: #E3002C;
-margin-bottom: 0px;
+.solv-sec h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e3002c;
+  margin-bottom: 0px;
 }
-.solv-sec h3{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-color: #222222;
+.solv-sec h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: #222222;
 }
-.solv-sec ul li{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-/* or 200% */
+.solv-sec ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
 
-
-color: #777777;
-
+  color: #777777;
 }
 /********* Rentspaze Solving Section Css End  *********/
 /********* Downlolad App Section Css Start  *********/
-.download-sec h2{ 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-/* identical to box height, or 179% */
-text-align: center;
-color: #E3002C;
+.download-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  /* identical to box height, or 179% */
+  text-align: center;
+  color: #e3002c;
 }
-.download-sec h3{
-  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 40px;
-text-align: center;
-color: #222222;
+.download-sec h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #222222;
 }
-.download-sec p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 40px;
-text-align: center;
-color: #777777;
+.download-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  color: #777777;
 }
-
 
 /********* Downlolad App Section Css End  *********/
 /********* Functinality Section Css Start  *********/
-.function-sec h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-color: #E3002C;
+.function-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  color: #e3002c;
 }
-.function-sec h3{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 40px;
-color: #222222;
-margin-bottom: 0px;
+.function-sec h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #222222;
+  margin-bottom: 0px;
 }
-.function-sec p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-color: #777777;
+.function-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #777777;
 }
 /********* Functinality Section Css End  *********/
 /********* Features Section Css Start*********/
-.feat-sec h2{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-/* identical to box height, or 179% */
-color: #E3002C;
+.feat-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  /* identical to box height, or 179% */
+  color: #e3002c;
 }
-.feat-card{
-  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.10);
+.feat-card {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
-.feat-card h3{
-  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 34px;
-/* identical to box height, or 189% */
+.feat-card h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  /* identical to box height, or 189% */
 
-
-color: #222222;
+  color: #222222;
 }
-.feat-card p{
-  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-/* or 200% */
+.feat-card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
 
-
-color: #777777;
-
+  color: #777777;
 }
 /********* Features Section Css End  *********/
 /********* Advantages Section Css Start  *********/
-.advantage-sec h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-/* identical to box height, or 179% */
+.advantage-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  /* identical to box height, or 179% */
 
-
-color: #E3002C;
-
+  color: #e3002c;
 }
-.adv-card{
+.adv-card {
   box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
 }
-.adv-card h3{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 100px;
-line-height: 100px;
-/* identical to box height, or 100% */
-color: #D9D9D9;
-margin-top: -60px;
-text-align: left;
-margin-bottom: 0px;
+.adv-card h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  /* identical to box height, or 100% */
+  color: #d9d9d9;
+  margin-top: -60px;
+  text-align: left;
+  margin-bottom: 0px;
 }
-.adv-card p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 40px;
-/* identical to box height, or 250% */
-text-align: center;
-color: #222222;
-
+.adv-card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  /* identical to box height, or 250% */
+  text-align: center;
+  color: #222222;
 }
 /********* Advantages Section Css End  *********/
 /********* How it Works Section Css Start  *********/
 .hide {
   display: none;
 }
-.work-sec h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-text-align: center;
-color: #E3002C;
-}
-.work-sec h1{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 39px;
-text-align: center;
-color: #777777;
-cursor: pointer;
-}
-.work-sec h3{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 40px;
-/* identical to box height, or 182% */
-color: #222222;
-}
-.work-sec p{
-  
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 40px;
-/* or 222% */
-
-
-color: #777777;
-margin-bottom: 0px;
-}
-.work-sec h4{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 600;
-font-size: 110px;
-line-height: 110px;
-/* identical to box height, or 100% */
-
-
-color: #D9D9D9;
-}
-.work-sec h5{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-
-color: #222222;
-margin-bottom: 0px;
-}
-.step p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 28px;
-/* or 175% */
-
-
-color: #777777;
-}
-.active{
-  color: #222222 !important;
-}
-/********* How it Works Section Css End  *********/
-/********* About Section Css Start  *********/
-.about-sec h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-color: #E3002C;
-}
-.about-sec p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 40px;
-/* or 222% */
-
-text-align: center;
-
-color: #777777;
-
-}
-/********* About Section Css End  *********/
-/********* People Passionate Section Css Start  *********/
-.passsion-sec h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 100px;
-color: #E3002C;
-}
-.passsion-sec p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 48px;
-/* or 218% */
-
-
-color: #777777;
-
-}
-.team-sec{
-  box-shadow: 0px 40px 70px rgba(0, 0, 0, 0.08);
-border-radius: 20px;
-}
-.team-sec h3{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height */
-
-
-color: #222222;
-}
-.team-sec h3 span{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-
-color: #E3002C;
-
-}
-/********* People Passionate Section Css End  *********/
-
-
-/* =========== contact section css start ====== */
-
-
-.cntc-head {
-  font-family: 'Poppins';
+.work-sec h2 {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 100px;
-  color: #E3002C;
+  text-align: center;
+  color: #e3002c;
+}
+.work-sec h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+  color: #777777;
+  cursor: pointer;
+}
+.work-sec h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  /* identical to box height, or 182% */
+  color: #222222;
+}
+.work-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 222% */
+
+  color: #777777;
+  margin-bottom: 0px;
+}
+.work-sec h4 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 110px;
+  line-height: 110px;
+  /* identical to box height, or 100% */
+
+  color: #d9d9d9;
+}
+.work-sec h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #222222;
+  margin-bottom: 0px;
+}
+.step p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #777777;
+}
+.active {
+  color: #222222 !important;
+}
+/********* How it Works Section Css End  *********/
+/********* About Section Css Start  *********/
+.about-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  color: #e3002c;
+}
+.about-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 222% */
+
+  text-align: center;
+
+  color: #777777;
+}
+/********* About Section Css End  *********/
+/********* People Passionate Section Css Start  *********/
+.passsion-sec h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  color: #e3002c;
+}
+.passsion-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 48px;
+  /* or 218% */
+
+  color: #777777;
+}
+.team-sec {
+  box-shadow: 0px 40px 70px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.team-sec h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #222222;
+}
+.team-sec h3 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #e3002c;
+}
+/********* People Passionate Section Css End  *********/
+
+/* =========== contact section css start ====== */
+
+.cntc-head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100px;
+  color: #e3002c;
 }
 
 .rch-out-txt {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -547,37 +512,32 @@ color: #E3002C;
 }
 
 .cntct-txt {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 40px;
   color: #222222;
   margin-bottom: 0;
-
 }
 
-
-
 .form-label {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   color: #222222;
   padding-left: 20px;
-
 }
-
 
 .form-control {
   line-height: 163.5%;
   color: rgba(0, 0, 0, 0.57);
   padding: 15px 20px;
   font-size: 14px;
-  background: #FFFFFF;
-  border: 1px solid #D9D9D9;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
   border-radius: 130px;
 }
 
@@ -586,26 +546,26 @@ color: #E3002C;
   color: rgba(0, 0, 0, 0.57);
   padding: 15px 20px;
   font-size: 14px;
-  background: #FFFFFF;
-  border: 1px solid #D9D9D9;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
   border-radius: 10px;
   width: 100%;
 }
 
 .form-control:focus {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: none;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
 
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   color: rgba(0, 0, 0, 0.57);
 }
 
 .form-control::placeholder {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -616,7 +576,6 @@ color: #E3002C;
   text-transform: capitalize;
 }
 
-
 .cstm-radio-label {
   width: 50%;
   line-height: 163.5%;
@@ -625,8 +584,8 @@ color: #E3002C;
   font-size: 14px;
   margin-right: 10px;
   text-align: center;
-  background: #FFFFFF;
-  border: 1px solid #D9D9D9;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
   border-radius: 130px;
 }
 
@@ -634,19 +593,18 @@ color: #E3002C;
   appearance: none;
 }
 
-.rd-input:checked+label {
-  background: #E3002C;
+.rd-input:checked + label {
+  background: #e3002c;
   color: #fff;
 }
 
 .snd-btn {
-
   border: 1px solid #222222;
   border-radius: 100px;
 }
 
 .snd-btn-txt {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -657,199 +615,245 @@ color: #E3002C;
 }
 
 /* =========== contact section css end ====== */
+/* =========== Foooter section css Start ====== */
+.footer-sec {
+  background-color: #e3002c;
+  padding: 15px 0px;
+}
+.footer-sec p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffffff;
+  margin-bottom: 0;
+}
+.footer-sec a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffffff;
+  margin-bottom: 0;
+}
+/* =========== Foooter section css end ====== */
 
 /* ***** Mobile Responsive Media Qurries Css Start ********* */
 
 @media screen and (max-width: 767px) {
-  .hero-sec h2{
+  .hero-sec h2 {
     font-size: 18px;
     line-height: 30px;
   }
-  .hero-sec h1{
+  .hero-sec h1 {
     font-size: 40px;
   }
-  .hero-sec p{
+  .hero-sec p {
     font-size: 18px;
     line-height: 30px;
   }
-  .chalng-sec h2{
+  .chalng-sec h2 {
     font-size: 30px;
     line-height: 45px;
   }
-  .solv-sec h2{
+  .solv-sec h2 {
     font-size: 30px;
     line-height: 45px;
     margin-top: 30px;
   }
-  .download-sec h2{
+  .download-sec h2 {
     font-size: 30px;
     line-height: 45px;
   }
-  .download-sec h3{
+  .download-sec h3 {
     font-size: 16px;
     line-height: 28px;
   }
-  .download-sec p{
+  .download-sec p {
     font-size: 16px;
     line-height: 30px;
   }
-  .function-sec h2{
+  .function-sec h2 {
     font-size: 40px;
     line-height: 40px;
   }
-  .feat-sec h2{
+  .feat-sec h2 {
     font-size: 35px;
     line-height: 35px;
   }
-  .about-sec h2{
+  .about-sec h2 {
     font-size: 35px;
     line-height: 55px;
   }
-  .about-sec p{
+  .about-sec p {
     font-size: 16px;
     line-height: 30px;
   }
-  .passsion-sec h2{
+  .passsion-sec h2 {
     font-size: 35px;
     line-height: 55px;
- }
- .passsion-sec p{
-  font-size: 19px;
+  }
+  .passsion-sec p {
+    font-size: 19px;
     line-height: 35px;
- }
- .cntc-head{
-  
-  font-size: 35px;
-  line-height: 55px;
-
- }
- .cstm-radio-label{
-  padding: 15px 30px;
- }
+  }
+  .cntc-head {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .cstm-radio-label {
+    padding: 15px 30px;
+  }
 }
 /* ***** Mobile Responsive Media Qurries Css Start ********* */
 
 /************ Tab Responsive media querry Start  ***********/
 @media (min-device-width: 768px) and (max-device-width: 1080px) {
-  .hero-sec h2{
+  .hero-sec h2 {
     font-size: 22px;
     line-height: 40px;
   }
-  .hero-sec h1{
+  .hero-sec h1 {
     font-size: 35px;
   }
-  .hero-sec p{
+  .hero-sec p {
     font-size: 16px;
     line-height: 25px;
   }
-  .slider-sec h2{
+  .slider-sec h2 {
     font-size: 20px;
     line-height: 25px;
-
   }
-  .slider-sec p{
+  .slider-sec p {
     font-size: 16px;
     line-height: 25px;
   }
-  .chalng-sec h2{
+  .chalng-sec h2 {
     font-size: 40px;
     line-height: 40px;
   }
-  .solv-sec h2{
+  .solv-sec h2 {
     font-size: 35px;
     line-height: 43px;
   }
-  .solv-sec h3{
+  .solv-sec h3 {
     font-size: 18px;
     line-height: 23px;
   }
-  .download-sec h2{
+  .download-sec h2 {
     font-size: 35px;
     line-height: 60px;
   }
-  .download-sec h3{
+  .download-sec h3 {
     font-size: 18px;
     line-height: 28px;
-
   }
-  .download-sec p{
+  .download-sec p {
     font-size: 16px;
     line-height: 30px;
   }
-  .function-sec h3{
+  .function-sec h3 {
     font-size: 20px;
     line-height: 25px;
-
   }
-  .function-sec p{
+  .function-sec p {
     line-height: 23px;
   }
-  .function-sec h2{
+  .function-sec h2 {
     font-size: 40px;
     line-height: 40px;
   }
-  .feat-sec h2{
+  .feat-sec h2 {
     font-size: 40px;
     line-height: 40px;
   }
-  .feat-card h3{
+  .feat-card h3 {
     font-size: 16px;
     line-height: 25px;
-
   }
-  .feat-card p{
-    line-height: 25px;
-
-  }
-  .adv-card p{
+  .feat-card p {
     line-height: 25px;
   }
-  .work-sec p{
+  .adv-card p {
+    line-height: 25px;
+  }
+  .work-sec p {
     font-size: 16px;
     line-height: 28px;
   }
-  .about-sec h2{
+  .about-sec h2 {
     font-size: 45px;
     line-height: 45px;
-
   }
-  .about-sec p{
+  .about-sec p {
     font-size: 16px;
     line-height: 27px;
   }
-  .passsion-sec h2{
+  .passsion-sec h2 {
     font-size: 33px;
     line-height: 50px;
   }
-  .passsion-sec p{
+  .passsion-sec p {
     font-size: 18px;
     line-height: 25px;
   }
 }
 /************ Tab Responsive media querry End  ***********/
-
-
-
-
-
-
-
-
-
-  /* Container media querry Start  */
-  @media (min-width: 1500px){
-    .container{
-      max-width: 1450px;
-    }
-      }
-  @media (min-width: 1700px){
-.container{
-  max-width: 1650px;
+@media (min-device-width: 992px) and (max-device-width: 1430px) {
+  .navbar-nav .nav-link {
+    font-size: 11px;
+  }
 }
+@media (min-device-width: 1200px) and (max-device-width: 1330px) {
+  .nav-btn2 {
+    padding: 10px 20px;
   }
+}
+@media (min-device-width: 1400px) and (max-device-width: 1500px) {
+  .nav-btn2 {
+    padding: 10px 22px !important;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1080px) {
+}
+
+/* Container media querry Start  */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1190px;
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1290px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1390px;
+  }
+}
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1490px;
+  }
+}
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1450px;
+  }
+}
+@media (min-width: 1700px) {
+  .container {
+    max-width: 1650px;
+  }
+}
 @media (min-width: 1800px) {
-    .container {
-      max-width: 1750px;
-    }
+  .container {
+    max-width: 1750px;
   }
-  /* Container media querry End  */
+}
+/* Container media querry End  */
